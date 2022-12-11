@@ -1,0 +1,34 @@
+{
+   "description": "",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAshiCt5XihhT/+xI8+u9al71v5vU+w9vR5G3XhRrOHwznMAHq5eyQmkpgsFPFiTtWbRc9zvPJJAZ1kzZZSptk/+BWV1tfusFbq3oMimaYh4BwfYHLI/6bibLJK92Fwiu6B5VFEngQ8azYz3ZJj95cmNu3tNlmRQaFYzfQh0j/oS9A/Lgfbc36+9AsDbehrVxo2cCNFW+zs0ayV9E6wfQpv0w962mfdRQsZqPyFbdP3tuwu1Up9UqhuHE89/FGUShymiQJZ+nw+CFfXz2DEJvzF8h1zrmBvjHPIEyLiwfny/IPqvuOafZh0FcEq5Iyqw76ZMPDYopqSmNbT/CTZKAvXwIDAQAB",
+   "manifest_version": 3,
+   "name": "QuantumBlue",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 15, 153, 227 ],
+         "button_background": [ 15, 153, 227, 1 ],
+         "frame": [ 12, 12, 12 ],
+         "ntp_background": [ 14, 14, 14 ],
+         "ntp_link": [ 6, 55, 116 ],
+         "ntp_text": [ 15, 153, 227 ],
+         "tab_background_text": [ 150, 150, 150 ],
+         "tab_text": [ 15, 153, 227 ],
+         "toolbar": [ 36, 36, 36 ]
+      },
+      "images": {
+         "theme_frame": "images/theme_frame.png",
+         "theme_tab_background": "images/theme_tab_background.png",
+         "theme_toolbar": "images/theme_toolbar.png",
+         "theme_frame_inactive" : "images/theme_frame.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "bottom",
+         "ntp_background_repeat": "no-repeat"
+      },
+      "tints": {
+         "buttons": [ 0.56, 0.88, 0.47 ],
+         "frame_inactive" : [ -1, -1, 0.55 ]
+      }
+   },
+   "version": "1.0"
+}

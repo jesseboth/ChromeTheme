@@ -20,7 +20,7 @@
 
 .searchTerm {
     width: 500px;
-    border: 2px solid #0f99e3;
+    border: 2px solid #7300ff;
     padding: 5px;
     height: 22.5px;
     border-radius: 15px 0 0 15px;
@@ -31,14 +31,14 @@
 }
 
 .searchTerm:focus {
-    color: #0f99e3;
+    color: #7300ff;
 }
 
 .searchButton {
     width: 40px;
     height: 36.6px;
-    border: .5px solid #0f99e3;
-    background: #0f99e3;
+    border: .5px solid #7300ff;
+    background: #7300ff;
     text-align: center;
     color: #0e0e0e;
     border-radius: 0 15px 15px 0;
@@ -63,14 +63,14 @@
 
 #google img {
     display: block;
-    width: 300px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin-top: 10px;
     user-select: none;
     -webkit-user-drag: none;
     margin-left: auto;
     margin-right: auto;
-    top: -180px;
+    top: -250px;
 }
 #img_google{
     position: relative;
@@ -162,7 +162,7 @@
 #time {
     font-family: Orbitron;
     font-size: 60px;
-    color: #0f99e3;
+    color: #7300ff;
     position: absolute;
     user-select: none;
     margin-top: -8px;
@@ -172,7 +172,7 @@
     margin-top: 60px;
     font-family: Orbitron-light;
     font-size: 25px;
-    color: #0f99e3;
+    color: #7300ff;
     position: absolute;
     user-select: none;
 
@@ -360,7 +360,7 @@
     border-radius: 20px;
 } 
 a{
-    color: #0f99e3;
+    color: #7300ff;
 }   
 .attachment{
     height: 25px;
@@ -378,7 +378,7 @@ a{
     margin-left: 18px;
     margin-top: -20px;
     white-space: nowrap;
-    color: #0f99e3;
+    color: #7300ff;
 }
 .no_underline{
     text-decoration: none;

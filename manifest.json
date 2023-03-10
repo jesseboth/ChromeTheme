@@ -2,7 +2,15 @@
    "description": "",
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAshiCt5XihhT/+xI8+u9al71v5vU+w9vR5G3XhRrOHwznMAHq5eyQmkpgsFPFiTtWbRc9zvPJJAZ1kzZZSptk/+BWV1tfusFbq3oMimaYh4BwfYHLI/6bibLJK92Fwiu6B5VFEngQ8azYz3ZJj95cmNu3tNlmRQaFYzfQh0j/oS9A/Lgfbc36+9AsDbehrVxo2cCNFW+zs0ayV9E6wfQpv0w962mfdRQsZqPyFbdP3tuwu1Up9UqhuHE89/FGUShymiQJZ+nw+CFfXz2DEJvzF8h1zrmBvjHPIEyLiwfny/IPqvuOafZh0FcEq5Iyqw76ZMPDYopqSmNbT/CTZKAvXwIDAQAB",
    "manifest_version": 3,
-   "name": "QuantumBlue",
+   "name": "QuantumBlueChrome",
+   "incognito": "split",
+   "chrome_url_overrides": {
+      "newtab": "tab/newtab.html"
+    },
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking"
+    ],
    "theme": {
       "colors": {
          "bookmark_text": [ 15, 153, 227 ],

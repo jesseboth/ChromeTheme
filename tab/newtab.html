@@ -1,0 +1,133 @@
+<html><head>
+    <title>New Tab</title>
+    <link rel="shortcut icon" type="image/png" href="../images/favicon.png">
+</head>
+<body style="background: #0e0e0e" "="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<script type="text/javascript" src="../js/code.js"></script>
+<script type="text/javascript" src="../js/agenda.js"></script>
+<script type="text/javascript" src="../js/init_agenda.js"></script>
+<script type="text/javascript" src="../js/events.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<canvas id="c" height="1688" width="2592" style="visibility: visible;"></canvas>
+
+<div class="wrap">
+    <div class="search">
+        <input type="text" class="searchTerm" placeholder="Search Google" autocomplete="off" id="comment" style="border-color: rgb(57, 57, 57); color: rgb(57, 57, 57);">
+        <button type="submit" class="searchButton" style="background: rgb(57, 57, 57); border-color: rgb(57, 57, 57);">
+            <img id="search_image" src="../images/search_img.png" style="height: 23px;">
+        </button>
+    </div>
+    <div id="google" class="virus" style="height: 175px; width: 137px; margin-left: auto; margin-right: auto;"><img src="../images/glitch.png" id="img_google" style="height: 175px; width: 137px; position: unset;"></div>
+</div>
+<div id="icons">
+    <div class="icon" id="gmail">
+        <a id="email_link" href="https://mail.google.com/mail/u/2/#inbox">
+            <img id="email" alt="gmail" src="../images/gmail_2.png" height="23" width="35">
+        </a>
+    </div>
+
+    <div class="icon" id="appDrawer">
+        <input type="image" src="../images/app_drawer_glitch.png" id="apps" height="33" width="33">
+ 
+        <div id="app_select_1" class="inactive" style="display:none">
+
+            <div id="custom_cal" class="app">
+                <img class="calendarimg" src="https://ssl.gstatic.com/calendar/images/dynamiclogo/2x/cal_09_v1.png" width="38" height="38">
+            </div>
+            <div id="cal" class="app">
+                <a href="https://calendar.google.com/calendar/" type="checkbox">
+                <img class="calendarimg" src="https://ssl.gstatic.com/calendar/images/dynamiclogo/lUkwQcfJg4wWmQhhAFLWO0z3HjG6yOs9/calendar_9_2x.png" width="38" height="38">
+                </a>
+            </div>
+        
+            <div id="youtube" class="app">
+                <a href="https://www.youtube.com/" type="checkbox">
+                    <img alt="youtube" src="../images/youtube.png" width="33" height="33">
+                </a>
+            </div>
+            <div id="TV" class="app">
+                <a href="https://tv.youtube.com/" type="checkbox">
+                    <img alt="TV" src="../images/youtube_tv.png" width="36" height="36">
+                </a>
+            </div>
+        
+        
+            <div id="drive" class="app">
+                <a href="https://drive.google.com/drive/u/0/my-drive" type="checkbox">
+                    <img src="../images/drive.png" width="33" height="33">
+                </a>
+            </div>
+            <div id="password" class="app">
+                <a href="https://passwords.google.com/" type="checkbox">
+                    <img src="../images/password.png" width="36" height="36">
+                </a>
+            </div>
+
+            </div>
+
+            <div id="app_select_2" class="active" style="display:none">
+                <div id="cal_2" class="app">
+                    <a href="https://calendar.google.com/calendar/u/2/r/week" id="cal_link" type="checkbox">
+                        <img class="calendarimg" src="https://ssl.gstatic.com/calendar/images/dynamiclogo/lUkwQcfJg4wWmQhhAFLWO0z3HjG6yOs9/calendar_9_2x.png" width="38" height="38">
+                    </a>
+                </div>
+                <div id="drive_2" class="app">
+                    <a href="https://drive.google.com/drive/u/2/" id="drive_link" type="checkbox">
+                        <img src="../images/drive.png" width="33" height="33">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+    <div class="icon" id="user">
+        <input id="pic" type="image" alt="apps" height="36" width="36" src="../images/anon.png" style="height: 36px; width: 36px;">
+
+        <div id="logins" style="visibility: hidden;">
+            <div style="margin-top: 8px;">
+                <div id="user1"><img id="img_main" src="../images/profile.png" width="36" height="36"></div>
+                <div id="user2"><img id="img_user1" src="../images/ub.png" width="36" height="36"></div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<div id="l" style="visibility: visible;">
+    <div id="date">
+        <div id="calendar">
+            <div id="cal_name" style="color: rgb(14, 14, 14); opacity: 0;">place_holder</div>
+            <div id="cal_location" style="color: rgb(14, 14, 14); opacity: 0;">place_holder</div>
+            <div id="start_end" style="color: rgb(14, 14, 14);"></div>
+        </div>
+        <div id="date_time">
+            <div id="time" style="font-family: Orbitron; color: rgb(57, 57, 57);">7:32</div>
+            <div id="month" style="font-family: Orbitron-light; color: rgb(57, 57, 57);">Thursday, March 9</div>
+        </div>
+    </div>
+</div>
+<div id="all_day" style="margin-top: -545px;">
+    <div id="summary" style="color: rgb(14, 14, 14); opacity: 0;">
+        
+    </div>
+    <div id="loc" style="opacity: 0;">
+
+    </div>
+</div>
+
+<div id="description_container" style="visibility: hidden;">
+    <div id="desc_con">
+        <div id="description"></div>
+    </div>
+    <div id="red_dot" class="red_dot"></div>
+
+</div>
+
+
+
+</body></html>

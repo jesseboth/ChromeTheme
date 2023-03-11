@@ -9,32 +9,5 @@
     "permissions": [
         "webRequest"
     ],
-    "theme": {
-        "colors": {
-            "bookmark_text": [ 115, 0, 255 ],
-            "button_background": [ 115, 0, 255, 1 ],
-            "frame": [ 12, 12, 12 ],
-            "ntp_background": [ 14, 14, 14 ],
-            "ntp_link": [ 6, 55, 116 ],
-            "ntp_text": [ 115, 0, 255 ],
-            "tab_background_text": [ 150, 150, 150 ],
-            "tab_text": [ 115, 0, 255 ],
-            "toolbar": [ 36, 36, 36 ]
-        },
-        "images": {
-            "theme_frame": "images\/theme_frame.png",
-            "theme_tab_background": "images\/theme_tab_background.png",
-            "theme_toolbar": "images\/theme_toolbar.png",
-            "theme_frame_inactive" : "images\/theme_frame.png"
-        },
-        "properties": {
-            "ntp_background_alignment": "bottom",
-            "ntp_background_repeat": "no-repeat"
-        },
-        "tints": {
-            "buttons": [ 0.74, 1, 0.5 ],
-            "frame_inactive" : [ -1, -1, 0.55 ]
-         }
-    },
     "version": "1.0"
 }

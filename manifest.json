@@ -1,13 +1,14 @@
 {
-    "description": "",
-    "manifest_version": 3,
-    "name": "QuantumPurpleChrome",
+    "name": "Purple New Tab",
+    "description": "Overrides the new tab page",
+    "version": "1.0",
     "incognito": "split",
     "chrome_url_overrides": {
-        "newtab": "tab/newtab.html"
+      "newtab": "tab/newtab.html"
     },
     "permissions": [
-        "webRequest"
+      "webRequest",
+      "webRequestBlocking"
     ],
-    "version": "1.0"
+    "manifest_version": 3
 }

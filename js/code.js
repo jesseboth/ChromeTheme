@@ -166,14 +166,6 @@ function cal_icon() {
       string_date = date.toString();
     }
     document.getElementsByClassName("calendarimg")[0].src =
-    "https://ssl.gstatic.com/calendar/images/dynamiclogo/2x/cal_" +
-    string_date +
-    "_v1.png";
-    document.getElementsByClassName("calendarimg")[1].src =
-    "https://ssl.gstatic.com/calendar/images/dynamiclogo/lUkwQcfJg4wWmQhhAFLWO0z3HjG6yOs9/calendar_" +
-    date.toString() +
-    "_2x.png";
-    document.getElementsByClassName("calendarimg")[2].src =
     "https://ssl.gstatic.com/calendar/images/dynamiclogo/lUkwQcfJg4wWmQhhAFLWO0z3HjG6yOs9/calendar_" +
     date.toString() +
     "_2x.png";

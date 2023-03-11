@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<script type="text/javascript" src="../js/code.js"></script>    
+<script type="text/javascript" src="../js/code.js"></script>
 <script type="text/javascript" src="../js/agenda.js"></script>
 <script type="text/javascript" src="../js/init_agenda.js"></script>
 <script type="text/javascript" src="../js/events.js"></script>
@@ -37,20 +37,22 @@
 
     <div  class="icon" id="appDrawer">
         <input type="image" src="../images/app_drawer.png" id="apps" height="33" width="33">
- 
+
         <div id="app_select_1" class="active" style="display:none">
 
-            <div id="custom_cal" class="app">
-                <img class="calendarimg" src="../images/default_calendar.png"
-                    width="38" height="38"/>
-            </div>
             <div id="cal" class="app">
                 <a href="https://calendar.google.com/calendar/" type="checkbox">
                 <img class="calendarimg" src="../images/default_google_calendar.png"
                     width="38" height="38"/>
                 </a>
             </div>
-        
+            <div id="doc" class="app">
+                <a href="https://docs.google.com/" type="checkbox">
+                <img src="../images/googledocs.png"
+                    width="55" height="40" style="margin-left: -8px;"/>
+                </a>
+            </div>
+
             <div id="youtube" class="app">
                 <a href="https://www.youtube.com/" type="checkbox">
                     <img alt="youtube" src="../images/youtube.png" width="33" height="33"/>
@@ -61,8 +63,8 @@
                     <img alt="TV" src="../images/youtube_tv.png" width="36" height="36"/>
                 </a>
             </div>
-        
-        
+
+
             <div id="drive" class="app">
                 <a href="https://drive.google.com/drive/u/0/my-drive" type="checkbox">
                     <img src="../images/drive.png" width="33" height="33"/>
@@ -98,16 +100,10 @@
 
         <div id="logins" style="visibility:hidden">
             <div style="margin-top: 8px;">
-                <div id="user1">
-                    <img id="img_user1"src="../images/ub.png" width="36" height="36"/>
-                </div>
-                <div id="user2">
-                    <img id="img_user2" src="../images/anon.png" width="36" height="36" />
-                </div>
             </div>
         </div>
     </div>
-    
+
 </div>
 
 <div id="l">
@@ -127,7 +123,7 @@
 </div>
 <div id="all_day">
     <div id="summary">
-        
+
     </div>
     <div id="loc">
 

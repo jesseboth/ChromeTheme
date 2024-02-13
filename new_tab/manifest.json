@@ -1,0 +1,14 @@
+{
+    "name": "Local Server New Tab",
+    "description": "Overrides the new tab page",
+    "version": "1.0",
+    "incognito": "split",
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking"
+    ],
+    "manifest_version": 3
+}

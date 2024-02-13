@@ -1,0 +1,1 @@
+window.location.replace('http://192.168.4.199:8000');

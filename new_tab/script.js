@@ -1,1 +1,5 @@
-window.location.replace('http://192.168.4.199:8000');
+window.addEventListener('message', function(event) {
+  // Handle the message from iframe
+  window.open(event.data, "_self");
+});
+
